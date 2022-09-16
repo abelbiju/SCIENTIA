@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SCIENTIA TUTIONS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="fun.html" class="logo">logo</a>
+            <div class="menu toggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="class.html">CLASSES</a></li>
+                    <li><a href="contacts.html">CONTACT</a></li> 
+                </ul>
+            </nav>
+            <div class="clearfix"> </div>
+        </header>
+        <section>
+            <img src="Old_Book_PNG_Clip_Art.png" id="mountain">
+            <h2 id="text">SCIENTIA</h2>
+            <h3 id="text1">KNOWLEDGE DELIVERED</h3>
+        </section>
+        <script type="text/javascript">
+            let mountain = document.getElementById("mountain");
+            let text = document.getElementById("text");
+            let text1 = document.getElementById("text1");
+
+            window.addEventListener('scroll', function(){
+                var value = window.scrollY;
+
+                mountain.style.top = -value * 0.5 + 'px';
+                text.style.top = value * 1 + 'px';
+                text1.style.top = value * 1 + 'px';
+            })
+        </script>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="anju.jpg">
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <h3>Note to Parents,<p></p>
+                            A Passionate facilitator who inspires, and motivates the children to choose to learn and ultimately fall in love with the process,
+                             this makes me a favourite teacher to all the students whom I have tutored thus far. 
+                             It all humbly started in a small room with a few students who desperately needed help with their 5th std science subject in school, 
+                             and who were scared to fail among their friends. But when they cleared their papers, I was the happiest for them, because even I discovered a teacher in me when I was only 16.
+                             Since then taught and facilitated hundreds of children by choosing my career as a teacher. I have seen children and teenagers transform when they find someone who understands exactly what they are facing and someone helps them understand and get them through it.
+                             I can assure you with the knowledge and expertise I have in scientific knowledge, I am the right choice you could make for your children to choose to learn. I proudly present to you “SCIENTIA”, your one-stop solution for your children to bloom with knowledge.
+                            <p></p>
+                            <h4><p>Your Facilitator</h4></p>
+                            Mercy John.P, MSc., B.Ed., BSc.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+
+</html>

@@ -1,0 +1,144 @@
+@media screen and (max-width:800px) {
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(247, 174, 40);
+    }
+
+    body {
+        background-image: url("./bg.jpg");
+        background-size: cover;
+    }
+
+    nav{
+        height: 6vh;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+    }
+    nav div, nav div a{
+        color: white;
+        text-decoration: none;
+    }
+    nav div{
+        padding: 10px;
+    }
+    a.ACTIVE, nav div a:hover{
+        color: rgb(247, 174, 40);
+    }
+    a.ACTIVE{
+        padding: 0 0 0 15vw;
+    }
+
+    .title{
+        padding: 3vh 0 0 20vw;
+        color: rgb(247, 174, 40);
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .subheading{
+        font-size:1.3rem;
+    }
+
+    .box{
+        margin: 3vh 15vw;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left, .right{
+        margin: 4vh 0;
+        padding: 4vh 2vw;
+    }
+    .box section section{
+        padding: 1vh 0.5vw;
+    }
+    .l_img{
+        width:100%;
+        border: 5px solid rgba(128, 128, 128, 0.699)
+    }
+    .welcome{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size:2rem;
+    }
+    .para{
+        text-align:justify;
+        color: white;
+    }
+    .flexbox{
+        display: flex;
+        flex-direction:column;
+    }
+    .flexbox section img{
+        width:100%;
+        border: 5px solid rgba(128, 128, 128, 0.699)
+    }
+    .flexbox section{
+        display: flex;
+        flex-direction:column;
+    }
+    .flexbox section p{
+        color:white;
+        font-size:0.9rem;
+        padding: 0 5px;
+    }
+    .button{
+        color:black;
+        font-weight: 900;
+        padding: 10px;
+        margin: 10px;
+        background:rgb(247, 174, 40);
+        border-radius: 10px;
+    }
+    .button:hover{
+        cursor: pointer;
+    }
+
+    .maps iframe{
+        width: 100%;
+    }
+    .right{
+        display: flex;
+        flex-direction:column;
+    }
+    .contact{
+        margin: 20px 0;
+    }
+    .details p{
+        color:white;
+    }
+    .number{
+        padding: 0 0 20px 0;
+    }
+    .name-box{
+        width:100%;
+        border-radius:4px;
+        height: 25px;
+        opacity: 0.5;
+        color: black;
+    }
+    .msg-box{
+        width:100%;
+        border-radius:4px;
+        height: 150px;
+        opacity: 0.5;
+        color: black;
+    }
+
+    footer{
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.699);
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer div{
+        color:white;
+    }
+}
